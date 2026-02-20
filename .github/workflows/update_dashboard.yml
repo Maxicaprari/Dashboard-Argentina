@@ -37,7 +37,7 @@ jobs:
           pip install --upgrade pip
           pip install requests pandas numpy
       - name: Generate dashboard
-        run: python generate_dashboard_argentina.py
+        run: python generate_dashboard.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
